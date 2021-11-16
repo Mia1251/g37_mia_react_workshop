@@ -41,7 +41,7 @@ const ShowStudentDetails = () => {
         return(
             <div className="card">
                 <div className="card-header bg-info text-white">
-                    Student Information
+                    STUDENT INFORMATION
                 </div>
                 <div className="card-body">
                     <p className="card-text">ID: {student.id}</p>
