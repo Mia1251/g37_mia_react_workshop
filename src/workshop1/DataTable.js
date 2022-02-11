@@ -16,11 +16,11 @@ const DataTable = () => {
 const TableHeader = () => {
     return (
     <thead>
-        <th scope="col">Id</th>
-        <th scope="col">First Name</th>
-        <th scope="col">Last Name</th>            
-        <th scope="col">Age</th>           
-        <th scope="col">Action</th>     
+        <th>Id</th>
+        <th>First Name</th>
+        <th>Last Name</th>            
+        <th>Age</th>           
+        <th>Action</th>     
     </thead>
     );
 };
