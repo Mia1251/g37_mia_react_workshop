@@ -78,7 +78,7 @@ const TableRow = (props) => {
 };
     return (
         <div className="container">
-            <table className="table .table-striped table-hover">
+            <table className="table table-striped table-hover">
                 <TableHeader />
                 <TableRow list={studentList} />                
             </table>
