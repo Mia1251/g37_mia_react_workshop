@@ -44,11 +44,10 @@ const ShowStudentDetails = () => {
                     STUDENT INFORMATION
                 </div>
                 <div className="card-body">
+                    <h5 className='card-title'>{student.country} {student.city} </h5>
                     <p className="card-text">ID: {student.id}</p>
                     <p className="card-text">Name: {student.firstName} {student.lastName}</p>
                     <p className="card-text">BirthDate: {student.birthDate}</p>
-                    <p className="card-text">Country: {student.country}</p>
-                    <p className="card-text">City: {student.city}</p>
                 </div>
                 <div className="card-footer">
                     <button type="button" className="btn btn-danger" onClick={() => {setShowDetails(false); setStudent(studentDefaultData)}}>Close</button>
